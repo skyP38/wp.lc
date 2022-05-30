@@ -1,0 +1,130 @@
+.body{
+  width:100%;
+}
+
+.wrapper{
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin:0em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.btns{
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+[name*='button']{
+  border-radius: 8px;
+  margin: .5em .9em;
+  border: 1px solid black;
+  padding: .5em 1em;
+  cursor: pointer;
+  color: black;
+  box-shadow: none;
+}
+
+.voc{
+  flex-direction: column;
+}
+
+#addBtn{
+  background: white;
+  border: none;
+  text-decoration-line: underline;
+  text-decoration-color: #207fe4;
+  color: blue;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color:inherit;
+}
+
+a:hover{
+  color: #207fe4;
+}
+
+h3, h4{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: xx-large;
+  align-items: center;
+  text-align: center;
+  margin-left: .5em;
+
+  color: #000000;
+}
+
+h4{
+  font-size: x-large;
+}
+
+#info{
+  font-size: large;
+}
+
+
+
+
+/* button{
+  margin: .5em auto;
+  font-size: 1em;
+  border-radius: .2em;
+  background: #39b54a;
+  border: 1px solid black;
+  padding: .6em 1em;
+  cursor: pointer;
+  color: white;
+  box-shadow: none;
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 161px;
+  height: 34px;
+  left: 28px;
+  top: 207px;
+
+  background: #EDEDED;
+  border: 1px solid #000000;
+  border-radius: 8px;
+}
+
+button:hover{
+background: white;
+color: #39b54a;
+}
+
+h3{
+position: absolute;
+width: 246px;
+height: 40px;
+left: calc(50% - 246px/2);
+top: calc(50% - 40px/2 - 39px);
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.button_submit{
+  flex-direction: row;
+} */
